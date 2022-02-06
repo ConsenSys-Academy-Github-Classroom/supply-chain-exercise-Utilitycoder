@@ -1,3 +1,5 @@
+
+   
 // Novel way to drive behavior of Smart Contract.
 
 // 
@@ -16,7 +18,7 @@ const items = (ca) => {
       name: t.name,
       nodeType: t.nodeType,
       stateVariable: t.stateVariable,
-      type: t.typeName.name || t.typeName.pathNode.name, 
+      type: t.typeName.name,
       mutability: t.typeName.stateMutability,
     }));
 };
